@@ -1,5 +1,5 @@
 #
-# ALGORITHME GLOUTON - Rendu de monnaie d'une machine à café
+# ALGORITHME GLOUTON - Rendu de monnaie au monopoly
 #
 
 listePieces = [ ];

@@ -1,0 +1,118 @@
+[
+    {
+        "gender": "male",
+        "name": {
+            "title": "mr",
+            "first": "José",
+            "last": "Dos santos"
+        },
+        "location": {
+            "street": "3159 rua da paz ",
+            "city": "são mateus",
+            "state": "tocantins",
+            "postcode": 37877,
+            "coordinates": {
+                "latitude": "-71.9971",
+                "longitude": "-147.2844"
+            }
+        },
+        "email": "jose.dossantos@example.com",
+        "login": {
+            "uuid": "dc053ef4-a2c6-4dc3-8cdd-8e8a047a7bb4",
+            "username": "ticklishsnake599",
+            "password": "robocop",
+            "salt": "OjWA3XpG",
+            "md5": "551fe720d20080d7a052a7d8c7419205",
+            "sha1": "79f1b1aff68d9cf8c2a9a87315fd0d21334b6c17",
+            "sha256": "bf42a60c53d04ceeb9f424c92dc0d861314b64ab65eaac3bda54788bf105e767"
+        },
+        "registered": {
+            "date": "2010-07-29T21:48:40Z",
+            "age": 8
+        },
+        "phone": "(02) 4647-7290",
+        "cell": "(34) 3322-5818",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/68.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/68.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/68.jpg"
+        },
+        "nat": "BR"
+    },
+    {
+        "gender": "female",
+        "name": {
+            "title": "miss",
+            "first": "amelie",
+            "last": "perez"
+        },
+        "location": {
+            "street": "860 burgemeester reigerstraat",
+            "city": "brunssum",
+            "state": "zuid-holland",
+            "postcode": 31394,
+            "coordinates": {
+                "latitude": "41.1100",
+                "longitude": "132.2201"
+            },
+            "timezone": {
+                "offset": "-10:00",
+                "description": "Hawaii"
+            }
+        },
+        "email": "amelie.perez@example.com",
+        "login": {
+            "uuid": "0811122f-39b5-4785-b4dd-2b671014155e",
+            "username": "tinydog740",
+            "password": "sonics",
+            "salt": "JSwBGuop",
+            "md5": "39635515578fac7ca8101b715f429678",
+            "sha1": "bd6fa754fa79f706111ac514e281e75410ae4050",
+            "sha256": "cd2ba210ac716e39d0f7b4b44887a5a745e66a76d32c04253d8e4f45cdbdfaa0"
+        },
+        "phone": "(003)-133-9670",
+        "cell": "(276)-339-5343",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/9.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/9.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/9.jpg"
+        },
+        "nat": "NL"
+    },
+    {
+        "gender": "male",
+        "name": {
+            "title": "mr",
+            "first": "milo",
+            "last": "moulin"
+        },
+        "location": {
+            "street": "4113 rue des ecrivains",
+            "city": "tours",
+            "state": "la réunion",
+            "postcode": 76761,
+            "coordinates": {
+                "latitude": "-3.8717",
+                "longitude": "-63.4861"
+            }
+        },
+        "email": "milo.moulin@example.com",
+        "login": {
+            "uuid": "bbb6bf8b-5bd8-4f20-b107-762898d2fbd3",
+            "username": "angryladybug526",
+            "password": "armand",
+            "salt": "tR2I9jdE",
+            "md5": "33205e342e44fa70c5bbf7936a80f162",
+            "sha1": "5350c297222cbc37570150128926448159daefde",
+            "sha256": "7836e367baaca6875831fd7ef9dc76f62330a4b5eceabbe1f21c0521a983d336"
+        },
+        "phone": "03-58-19-78-24",
+        "cell": "06-05-27-48-06",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/55.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/55.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/55.jpg"
+        },
+        "nat": "FR"
+    }
+]

@@ -47,6 +47,11 @@ print()
 # Un service mis à dispo par l'état: https://adresse.data.gouv.fr/api -> /reverse/
 # Exemple pour le point de départ: https://api-adresse.data.gouv.fr/reverse/?lat=50.198153&lon=3.220213
 
+print( "Affichage des URLs à consulter")
 
+urlReverseGeocoding = "https://api-adresse.data.gouv.fr/reverse/"
 
-
+for couple in listeLatLon:
+    print()
+    print( urlReverseGeocoding + "?long=" + str(couple[1]) + "&lat=" + str(couple[0]))
+    

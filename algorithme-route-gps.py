@@ -28,6 +28,8 @@ if status != 'success':
 print()
 print()
 print("Voici les nodes à suivre: ")
+print()
+print()
 print( listeNodes )
 # Pourquoi je vois des nombres ? Réponse ici: https://wiki.openstreetmap.org/wiki/Node
 # Pour openstreetmap un node est un point dans l'espace et possède un id unique permettant de le reconnaitre.
@@ -35,6 +37,8 @@ print( listeNodes )
 print()
 print()
 print( "Conversion de la liste de nodes en liste de couples (Latitude,Longitude)")
+print()
+print()
 listeLatLon = []
 for node in listeNodes:
     listeLatLon.append( router.nodeLatLon(node) )
@@ -51,7 +55,12 @@ print( "Affichage des URLs à consulter")
 
 urlReverseGeocoding = "https://api-adresse.data.gouv.fr/reverse/"
 
+# Nous pouvons également utilisé google afin d'afficher les coordonnées sur une map
+# https://developers.google.com/maps/documentation/urls/guide "Map Actions -> Search"
+urlGoogle = "https://www.google.com/maps/search/?api=1&query="
+
 for couple in listeLatLon:
     print()
     print( urlReverseGeocoding + "?long=" + str(couple[1]) + "&lat=" + str(couple[0]))
+    print( urlGoogle + str(couple[0]) + "," + str(couple[1]))
     

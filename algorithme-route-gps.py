@@ -55,7 +55,7 @@ print( "Affichage des URLs à consulter")
 
 urlReverseGeocoding = "https://api-adresse.data.gouv.fr/reverse/"
 
-# Nous pouvons également utilisé google afin d'afficher les coordonnées sur une map
+# Nous pouvons également utiliser google afin d'afficher les coordonnées sur une map
 # https://developers.google.com/maps/documentation/urls/guide "Map Actions -> Search"
 urlGoogle = "https://www.google.com/maps/search/?api=1&query="
 

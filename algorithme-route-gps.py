@@ -7,7 +7,7 @@ import sys
 # Ici, à l'aide du constructeur (Router), on initialise un objet de type router
 # Lors de l'instantiation, on lui spécifie via le paramètre "car" que l'on souhaite se déplacer en voiture.
 # Mode de transport disponibles: car, cycle, foot, horse, tram, train
-router = Router("car") # Initialise it
+router = Router("car")
 
 # On utilise la méthode findNode de l'objet router afin de récupérer le node le plus proche du couple latitude longitude spécifié
 # https://www.openstreetmap.fr/ pour comprendre et https://www.openstreetmap.org pour trouver lat et lon

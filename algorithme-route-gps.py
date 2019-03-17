@@ -23,7 +23,7 @@ print("Statut du calcul de l'itinéraire: ", status)
 
 if status != 'success':
     print(" Fin du programme. Revoyez vos coordonnées GPS")
-    Sys.exit(1);
+    sys.exit(1);
 
 print()
 print()
